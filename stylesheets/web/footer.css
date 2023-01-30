@@ -1,0 +1,203 @@
+footer {
+  background-color: #0b1e3e;
+}
+footer .container {
+  max-width: 1200px;
+}
+footer  .footer-logo {
+  margin: 30px 0;
+}
+
+footer .footer-logo img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+footer .footer-logo .logo-text .shop-name {
+  font-family: 'Londrina Outline', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+footer .footer-logo .slogan p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+/* <======subscribe-area======> */
+.subscribe-area {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.subscribe-area .subscribe h5{
+  color: #fff;
+  text-align: center;
+}
+.subscribe-area .subscribe p span {
+  color: #fed700;
+  font-size: 16px;
+}
+
+.subscribe-area .form-group {
+  border: 1px solid #152f5c;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 0 0 0;
+}
+.subscribe-area .form-group .form-control:focus {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #c8d3e6;
+}
+.subscribe-area input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #c8d3e6;
+  padding: 20px 10px;
+  
+}
+.subscribe-area input::placeholder {
+  color: #c8d3e6;
+}
+.subscribe-area .form-control:focus {
+  border-color: transparent;
+}
+.subscribe-area .btn-subscribe {
+  border-radius: 10px;
+  color: #fff;
+  background-color: #FFa109;
+  padding: 10px;
+  min-width: max-content;
+}
+
+
+footer .footer-content {
+  padding: 30px 0;
+  border-top: 1px solid #25344d;
+}
+footer .footer-content li,
+footer .footer-content p {
+  line-height: 2;
+}
+.single-footer h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.single-footer h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: rgb(255,161,9);
+  bottom: 0;
+}
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+}
+.footer-social a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.footer-social a i {
+  color: #FFF;
+  font-size: 20px;
+}
+.footer-social .footer-facebook {
+  background-color: #007bff;
+}
+.footer-social .footer-twitter {
+  background-color: #1DA1F2;
+}
+.footer-social .footer-linkedin {
+  background-color: #2962ff;
+}
+.footer-social .footer-youtube {
+  background-color: #ff0000;
+}
+.footer-social a:hover {
+  background-color: #fff;
+}
+.footer-social .footer-facebook:hover i {
+  color: #007bff;
+}
+.footer-social .footer-twitter:hover i {
+  color: #1DA1F2;
+}
+.footer-social .footer-linkedin:hover i {
+  color: #2962ff;
+}
+.footer-social .footer-youtube:hover i {
+  color: #ff0000;
+}
+/*<=========>*/
+.footer-links a {
+  display: flex;
+  color: #6fa6d4;
+}
+.footer-links .link-icon {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.footer-links li:hover a{
+  color: rgb(255,161,9);
+}
+.footer-links li:hover .link-icon{
+  display: block;
+}
+/*<=========>*/
+
+.footer-contact .agency-1 > p,
+.footer-contact .agency-2 > p {
+  font-size: 15px;
+  color: #f4f4f4;
+}
+.footer-contact .agency-1 > ul,
+.footer-contact .agency-2 > ul {
+  margin-left: 20px;
+}
+.footer-contact li,
+.footer-opening-hours span{
+  color: #c9c9c9;
+  font-size: 15px;
+  line-height: 1.5;
+}
+footer li i {
+  margin-right: 5px;
+  color: rgb(255,161,9);
+}
+
+.footer-bottom-area span {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1199.98px) {  
+  footer {
+    padding: 0 20px;
+  }
+  
+}
+@media only screen and (max-width: 991.98px) {  
+  footer .single-footer {
+    margin-bottom: 30px;
+  }
+  
+}
+@media only screen and (max-width: 767.98px) {
+  footer .footer-logo img {
+    width: 90px;
+    height: 90px;
+  }
+}
